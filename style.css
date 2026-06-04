@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#fff5f5,#ffe8ec);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.invitation{
+    width:90%;
+    max-width:700px;
+    background:#fff;
+    padding:50px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1{
+    font-family:'Great Vibes',cursive;
+    font-size:60px;
+    color:#c79a00;
+}
+
+.heart{
+    font-size:35px;
+    color:#e63946;
+    margin:15px 0;
+    animation:pulse 1.5s infinite;
+}
+
+h2{
+    font-size:38px;
+    color:#b23a48;
+    margin-bottom:20px;
+}
+
+.message{
+    font-size:18px;
+    color:#555;
+    line-height:1.8;
+}
+
+.details{
+    margin-top:25px;
+}
+
+.details p{
+    margin:10px 0;
+    color:#333;
+}
+
+button{
+    margin-top:25px;
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    background:#b23a48;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#8f2332;
+}
+
+@keyframes pulse{
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.2);
+    }
+}
